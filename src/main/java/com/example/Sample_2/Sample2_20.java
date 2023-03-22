@@ -15,7 +15,7 @@ public class Sample2_20 {
 
     public  static void main(String[] args){
         new Sample2_20().new A().methodA();
-        // new A.methodA(); コンパイルエラー
+        // new A.methodA(); と記述するとコンパイルエラー
 
 
         // new Sample2_20().B().methodB();

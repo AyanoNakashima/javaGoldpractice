@@ -42,9 +42,9 @@ class Outer {
             //staticクラスのインスタンス化
     
             a.method1();
-            // b.method2();
-    
-            Outer.B.method2();
+
+            b.method2();//staticなメソッドなのでインスタンス化せずアクセスできる
+            Outer.B.method2();//こういうこと
     
     
         }
